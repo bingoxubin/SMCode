@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Compiled class file
 *.class
 
@@ -21,3 +22,31 @@
 
 # virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
 hs_err_pid*
+=======
+_Store
+*.iml
+*.ipr
+*.iws
+*.orig
+*.rej
+*.sdf
+*.suo
+.idea
+.svn
+.classpath
+.project
+.settings
+.DS_Store
+target
+build
+*.class
+*.jar
+log
+logs
+spark-warehouse/
+
+# External tool builders
+*/.externalToolBuilders
+*/maven-eclipse.xml
+*/.DS_Store
+>>>>>>> 69260e0 (init)
