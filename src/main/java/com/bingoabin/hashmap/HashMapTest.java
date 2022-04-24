@@ -20,6 +20,7 @@ public class HashMapTest {
 		hashmap.put(6, 3);
 		hashmap.put(7, 2);
 		hashmap.put(8, 1);
+		hashmap.put(null, null);
 		PriorityQueue<Map.Entry<Integer, Integer>> priorityQueue = new PriorityQueue<>(5, new Comparator<Map.Entry<Integer, Integer>>() {
 			@Override
 			public int compare(Map.Entry<Integer, Integer> o1, Map.Entry<Integer, Integer> o2) {
