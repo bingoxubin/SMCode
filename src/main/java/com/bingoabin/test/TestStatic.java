@@ -15,6 +15,9 @@ public class TestStatic {
 	}
 
 	public static void main(String[] args) {
+		System.out.println(1<<0);
+		System.out.println(1<<2);
+		System.out.println(3<<2);
 		int[] arr = {1, 2, 3, 4, 5};
 		String res = String.join(".", Arrays.stream(arr).mapToObj(String::valueOf).collect(Collectors.toList()));
 		System.out.println(res);
