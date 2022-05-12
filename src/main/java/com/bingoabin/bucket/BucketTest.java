@@ -7,6 +7,7 @@ import java.util.Arrays;
  * @date 2022/4/21 15:09
  */
 public class BucketTest {
+	//火柴正方形
 	public static void main(String[] args) {
 		int[] arr = {5, 4, 8, 7, 6, 3, 2, 9, 10};
 		arr = Arrays.stream(arr).boxed().sorted((a, b) -> b - a).mapToInt(Integer::intValue).toArray();
