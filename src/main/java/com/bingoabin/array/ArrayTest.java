@@ -8,7 +8,7 @@ import java.util.Arrays;
  */
 public class ArrayTest {
 	public static void main(String[] args){
-		String str = "abbca";
+		String str = "abbcac";
 		System.out.println(appealSum(str));
 	}
 
