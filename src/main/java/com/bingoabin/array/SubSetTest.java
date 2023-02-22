@@ -12,6 +12,7 @@ public class SubSetTest {
 		int[] arr = {1, 2, 3};
 		SubSetTest subSetTest = new SubSetTest();
 		System.out.println(subSetTest.subsets(arr));
+		System.out.println();
 	}
 
 	public List<List<Integer>> subsets(int[] nums) {
