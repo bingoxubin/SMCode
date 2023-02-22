@@ -26,6 +26,7 @@ public class ArrayTest {
 			pre += i - indexOfLastSame[i];
 			res += pre;
 		}
+		System.out.println();
 		return res;
 	}
 }

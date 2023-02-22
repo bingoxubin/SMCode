@@ -9,6 +9,7 @@ public class Test6 {
 	public static void main(String[] args){
 		int[] nums = {3, 1, 2};
 		System.out.println(findMin(nums));
+		System.out.println();
 	}
 
 	public static int findMin(int[] nums) {
