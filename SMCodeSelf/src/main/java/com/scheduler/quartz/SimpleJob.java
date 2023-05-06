@@ -1,4 +1,4 @@
-package com.quartz;
+package com.scheduler.quartz;
 
 /**
  * @author bingoabin
